@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+input[type='text'] {
+  padding: 10px;
+  width: 25%;
+  font-size: 1.4rem;
+  border-radius: 20px;
+}
+
+button {
+  font-size: 1.1rem;
+  border-radius: 10px;
+  width: 80px;
+}
+
+button:hover, input[type='submit']:hover {
+  background-color: aquamarine;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  font-size: 1.4rem;
+  border-radius: 20px;
+  margin-left: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+.tareas-container {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.btnBorrarTarea{
+  padding: 1px;
+  border: 0;
+  margin: 5px;
+  width: auto;
+  font-size: 1.6em;
+}
+
+.btnBorrarTarea:hover {
+  background-color: aquamarine;
+  border-radius: 10%;
+}
+
+.contadorTareas {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.contadorTareas h3 {
+  color: aquamarine;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.contadorTareas label {
+  color: red;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}

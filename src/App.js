@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Empleados } from './components/Empleados';
+import { Gestion } from './components/Gestion';
+import { Tareas } from './components/Tareas';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <header className="App-header"></header> */}
+      <section>
+        {
+          <>
+            {/* Ejerc. usando "Hook memo" */}
+            {/* <Tareas /> */}
+
+            {/* Ejerc. usando metodo "React.memo" para components*/}
+            <Gestion />
+          </>
+        }
+      </section>
     </div>
   );
 }
